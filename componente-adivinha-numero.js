@@ -12,3 +12,7 @@ const Adivinhador = (numero) =>  {
         return "Tente um número menor.";
     }
 };
+
+for (let i=1;i<=100;i++){
+    console.log(`${i}: ${Adivinhador(i)}`)
+}
